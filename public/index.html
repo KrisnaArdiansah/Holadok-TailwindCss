@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halodok Tailwind Css</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container w-full h-full relative border">
+      <header class="w-[80%] flex justify-between ml-40 fixed p-1 z-10 mt-5">
+        <div class="flex">
+          <div class="logo flex flex-row w-[199px]">
+            <img src="../src/img/logo.svg" alt="" />
+            <h2 class="font-bold ml-3">Holadok</h2>
+          </div>
+          <nav>
+            <ul class="flex">
+              <li class="mx-4"><a href="#">Home</a></li>
+              <li class="mx-4"><a href="#">Features</a></li>
+              <li class="mx-4"><a href="#">Blog</a></li>
+              <li class="mx-4"><a href="#">About Us</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <form class="w-[295px] flex justify-end">
+          <a href="#" class="font-semibold">Login</a>
+          <a
+            href="#"
+            class="font-semibold ml-5 px-2 border-2 border-black rounded-sm"
+            >Book Now</a
+          >
+        </form>
+      </header>
+
+      <div class="content relative flex basis-1/2">
+        <div
+          class="content-left flex flex-col w-[280px] h-auto absolute left-40 top-32"
+        >
+          <p class="text-3xl font-semibold mb-3">
+            Get the healthcare you need, when you need it.
+          </p>
+          <small class="text-xs mb-8">
+            Manage all of your healthcare needs in one convenient place – from
+            booking appointments to tracking your health history.
+          </small>
+          <a
+            href="#"
+            class="block w-48 mt-4 px-4 py-3 border bg-blue-950 text-center text-white text-sm font-semibold rounded-md"
+            >Book an Appointment</a
+          >
+        </div>
+        <div
+          class="card w-80 h-52 z-10 p-5 border-2 bg-slate-50 border-zinc-100 rounded-md absolute right-80 top-28"
+        >
+          <div class="card-header flex justify-between my-3">
+            <div class="card-name flex">
+              <img src="../src/img/card-profil.svg" alt="" />
+              <h2 class="font-bold mx-2">Jane Doe</h2>
+            </div>
+            <div class="icon flex mr-5">
+              <img src="../src/img/vector.svg" alt="" class="px-0.5" />
+              <img src="../src/img/vector.svg" alt="" class="px-0.5" />
+            </div>
+          </div>
+
+          <small class="font-thin my-5">
+            “The doctor appointment app has been great for me. Scheduling
+            appointments and getting medication reminders is much easier, and I
+            love the option for virtual consultations. I'd recommend this app to
+            others.”
+          </small>
+        </div>
+        <div class="hero">
+          <img
+            src="../src/img/hero.svg"
+            alt=""
+            class="absolute right-6 top-5"
+          />
+          <img
+            src="../src/img/pattern.svg"
+            alt=""
+            class="-z-10 absolute right-3 top-4"
+          />
+        </div>
+      </div>
+
+      <div class="banner flex justify-center relative">
+        <div
+          class="content-banner w-11/12 z-10 rounded-md absolute top-[420px] bg-blue-950"
+        >
+          <ul class="flex justify-evenly text-white">
+            <li class="w-80 flex py-9">
+              <div class="icons">
+                <img src="../src/img/icons-calender.svg" class="" />
+              </div>
+              <div class="ml-5">
+                <h2 class="font-bold text-md">Online appointment scheduling</h2>
+                <small>
+                  Allows users to schedule appointments with their healthcare
+                  provider through the app.
+                </small>
+              </div>
+            </li>
+            <li class="w-80 flex py-9">
+              <div class="icons">
+                <img src="../src/img/icons-lonceng.svg" class="" />
+              </div>
+              <div class="ml-5">
+                <h2 class="font-bold text-md">Medication reminders</h2>
+                <small>
+                  Allows users to schedule appointments with their healthcare
+                  provider through the app.
+                </small>
+              </div>
+            </li>
+            <li class="w-80 flex py-9">
+              <div class="icons">
+                <img src="../src/img/icons-virtualconsul.svg" class="" />
+              </div>
+              <div class="ml-5">
+                <h2 class="font-bold text-md">Virtual consultations</h2>
+                <small>
+                  Allows users to schedule appointments with their healthcare
+                  provider through the app.
+                </small>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
